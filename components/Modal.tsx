@@ -22,7 +22,7 @@ const Modal = ({ productId }: Props) => {
   const [isSubmiting, setIsSubmiting] = useState(false);
   const [email, setEmail] = useState("");
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmiting(true);
 
